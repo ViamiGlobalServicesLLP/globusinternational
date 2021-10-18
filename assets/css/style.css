@@ -513,6 +513,7 @@ blockquote.text-white cite span {
 
 .header-left, .header-center, .header-right {
     display: flex;
+<<<<<<< HEAD
     align-items: center
 }
 
@@ -520,6 +521,15 @@ blockquote.text-white cite span {
     margin-left: auto;
     align-self: stretch
 }
+=======
+    align-items: center;
+    height: 110px;
+}
+
+/* .header-right {
+    align-self: stretch
+} */
+>>>>>>> 49033b603f4e21ccecb3f552531424887df208a0
 
 .header-center {
     margin-left: auto;
@@ -536,8 +546,15 @@ blockquote.text-white cite span {
 
 .logo img {
     display: block;
+<<<<<<< HEAD
     max-width: 100%;
     height: auto
+=======
+    /* max-width: 100%;
+    height: auto */
+    width: 150px;
+    height: 100px;
+>>>>>>> 49033b603f4e21ccecb3f552531424887df208a0
 }
 
 .header-top {
@@ -2074,7 +2091,13 @@ blockquote.text-white cite span {
 
 @media screen and (min-width: 992px) {
     .main-nav {
+<<<<<<< HEAD
         display: block
+=======
+        display: block;
+        position: relative;
+        left: 430px;
+>>>>>>> 49033b603f4e21ccecb3f552531424887df208a0
     }
 }
 
@@ -18621,4 +18644,61 @@ button:focus {
     content: '\f7e3'
 }
 
+<<<<<<< HEAD
 /*# sourceMappingURL=style.css.map */
+=======
+/*# sourceMappingURL=style.css.map */
+
+#fh5co-footer {
+    background: rgba(145, 99, 68, 0.301);
+}
+
+#fh5co-services, #fh5co-started, #fh5co-testimonial, #fh5co-started, #fh5co-product, #fh5co-about, #fh5co-contact, #fh5co-footer {
+    padding: 7em 0;
+    clear: both;
+}
+#fh5co-footer .fh5co-footer-links li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.col-md-4 p{
+    margin-bottom: 20px;
+}
+
+#footer .copyright {
+    float: left;
+}
+
+#footer .credits {
+    float: right;
+    font-size: 13px;
+}
+
+#footer .footer-bottom {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+#footer {
+    font-size: 14px;
+    background: rgb(97,54,39);
+}
+
+#fh5co-footer .fh5co-footer-links li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.fh5co-footer-links li:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.fh5co-footer-links li{
+    color: black;
+    font-weight: 400;
+}
+>>>>>>> 49033b603f4e21ccecb3f552531424887df208a0
