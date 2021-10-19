@@ -513,23 +513,15 @@ blockquote.text-white cite span {
 
 .header-left, .header-center, .header-right {
     display: flex;
-<<<<<<< HEAD
-    align-items: center
-}
-
-.header-right {
-    margin-left: auto;
-    align-self: stretch
-}
-=======
     align-items: center;
+
     height: 110px;
 }
 
 /* .header-right {
     align-self: stretch
 } */
->>>>>>> 49033b603f4e21ccecb3f552531424887df208a0
+
 
 .header-center {
     margin-left: auto;
@@ -1713,7 +1705,7 @@ blockquote.text-white cite span {
 
 .main-nav {
     margin-left: 2rem;
-    display: none
+    /* display: none */
 }
 
 .menu, .menu ul {
