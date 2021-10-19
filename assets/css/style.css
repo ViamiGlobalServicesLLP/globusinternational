@@ -1698,7 +1698,7 @@ blockquote.text-white cite span {
 
 .main-nav {
     margin-left: 2rem;
-    display: none
+    /* display: none; */
 }
 
 .menu, .menu ul {
