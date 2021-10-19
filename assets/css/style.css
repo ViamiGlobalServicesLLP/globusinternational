@@ -513,6 +513,15 @@ blockquote.text-white cite span {
 
 .header-left, .header-center, .header-right {
     display: flex;
+<<<<<<< HEAD
+    align-items: center
+}
+
+.header-right {
+    margin-left: auto;
+    align-self: stretch
+}
+=======
     align-items: center;
     height: 110px;
 }
@@ -520,6 +529,7 @@ blockquote.text-white cite span {
 /* .header-right {
     align-self: stretch
 } */
+>>>>>>> 49033b603f4e21ccecb3f552531424887df208a0
 
 .header-center {
     margin-left: auto;
@@ -536,10 +546,15 @@ blockquote.text-white cite span {
 
 .logo img {
     display: block;
+<<<<<<< HEAD
+    max-width: 100%;
+    height: auto
+=======
     /* max-width: 100%;
     height: auto */
     width: 150px;
     height: 100px;
+>>>>>>> 49033b603f4e21ccecb3f552531424887df208a0
 }
 
 .header-top {
@@ -2076,9 +2091,13 @@ blockquote.text-white cite span {
 
 @media screen and (min-width: 992px) {
     .main-nav {
+<<<<<<< HEAD
+        display: block
+=======
         display: block;
         position: relative;
         left: 430px;
+>>>>>>> 49033b603f4e21ccecb3f552531424887df208a0
     }
 }
 
@@ -18625,6 +18644,9 @@ button:focus {
     content: '\f7e3'
 }
 
+<<<<<<< HEAD
+/*# sourceMappingURL=style.css.map */
+=======
 /*# sourceMappingURL=style.css.map */
 
 #fh5co-footer {
@@ -18679,3 +18701,4 @@ button:focus {
     color: black;
     font-weight: 400;
 }
+>>>>>>> 49033b603f4e21ccecb3f552531424887df208a0
