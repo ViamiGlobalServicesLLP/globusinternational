@@ -1705,7 +1705,11 @@ blockquote.text-white cite span {
 
 .main-nav {
     margin-left: 2rem;
+<<<<<<< HEAD
     /* display: none */
+=======
+    /* display: none; */
+>>>>>>> d5c4d7d6f56c75b13ebff63a1b4b39f97ccd8737
 }
 
 .menu, .menu ul {
